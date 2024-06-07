@@ -1,0 +1,12 @@
+singleton\Combat.class
+warriors\Fishman.class
+warriors\Human.class
+app\CombatWarriors.class
+interfaces\Fighter.class
+adapters\FishmanAdapter.class
+adapters\SkymanAdapter.class
+warriors\Skyman.class
+warriors\Saiyan.class
+warriors\Sorcerer.class
+warriors\Warrior.class
+adapters\SorcererAdapter.class
