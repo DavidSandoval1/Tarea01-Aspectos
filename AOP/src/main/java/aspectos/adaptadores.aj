@@ -17,5 +17,4 @@ public aspect adaptadores {
 	after(): salida() {
 		System.out.println("\nFin del juego!");
 	}
-	
 }
