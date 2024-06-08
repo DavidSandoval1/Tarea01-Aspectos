@@ -4,6 +4,7 @@
  */
 package singleton;
 
+import adapters.SorcererAdapter;
 import interfaces.Fighter;
 
 /**
@@ -12,6 +13,9 @@ import interfaces.Fighter;
  */
 public class Combat {
     private static Combat combat;
+    private static Fighter j1;
+    private static Fighter j2;
+    
     public static Combat getInstance(){
         if (combat==null){
             combat = new Combat();

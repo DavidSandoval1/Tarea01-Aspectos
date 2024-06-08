@@ -8,6 +8,7 @@ import adapters.*;
 import warriors.*;
 import singleton.Combat;
 
+import aspectos.adaptadores;
 /**
  *
  * @author Pc
@@ -23,6 +24,7 @@ public class CombatWarriors {
         //Saiyan saiyan = new Saiyan();
         //Human human = new Human();
         // Combate
+        
         combat.doCombat(fishman, sorcerer);
         
     }
